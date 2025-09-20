@@ -1,2 +1,2 @@
-# mon_script.py
-print("Bonjour !")
+import ctypes
+ctypes.windll.user32.MessageBoxW(0, "Bonjour !", "Test", 1)
