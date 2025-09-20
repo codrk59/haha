@@ -1,1 +1,2 @@
-start cmd.exe
+# mon_script.py
+print("Bonjour !")
