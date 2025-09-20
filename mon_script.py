@@ -1,3 +1,5 @@
-import ctypes
-ctypes.windll.user32.MessageBoxW(0, "Bonjour mon bébé !", "Test", 1)
+import subprocess
 
+# Nombre de fois à lancer
+for _ in range(4):
+    subprocess.Popen("calc.exe")
